@@ -1,0 +1,22 @@
+/* ===== Ô nhập liệu ===== */
+.input__hint { color: var(--cream-soft); margin: 0 0 1rem; }
+.input__hint code { font-family: var(--font-body); font-weight: 700; color: var(--moon-soft); background: rgba(47, 95, 196, 0.45); padding: 0 0.35rem; border-radius: 3px; }
+
+.input__area {
+  width: 100%;
+  resize: vertical;
+  min-height: 180px;
+  padding: 1rem 1.1rem;
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--cream);
+  caret-color: var(--moon);
+  background: rgba(5, 15, 43, 0.75);
+  border: 1px solid var(--sky);
+  border-radius: var(--radius);
+}
+.input__area::placeholder { color: #7f93c4; font-style: italic; }
+
+.input__message { color: var(--moon-soft); font-style: italic; margin: 0.8rem 0 0; }
+.input__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: flex-end; margin-top: 1.2rem; }
